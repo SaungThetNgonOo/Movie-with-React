@@ -1,0 +1,46 @@
+.entery-logo{
+    width: 13rem;
+    height: 4rem;
+    margin: 2rem;
+}
+.form-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .form-label{
+    margin: 10px;
+  }
+.form-section{
+margin: 0;
+width: 100vw;
+height: 100vh;
+align-items: center;
+background-image: url("https://kinkeadtech.com/wp-content/uploads/2015/02/Genesis-Add-on-for-XBMC-and-Kodi-background.jpg");
+}
+.form{
+background-color:rgba(0,0,0,0.7);
+width: 30em;
+height: 30em;
+border-radius: 1em;
+box-shadow: 0 0.1550em rgb(156,156,156);
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: blue;
+margin: auto;
+}
+
+.Login-btn{
+  position: relative;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem;
+    width: 4rem;
+    height: 2rem;
+    margin: auto;
+}

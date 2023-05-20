@@ -1,0 +1,23 @@
+.Enterynav{
+    display: flex;
+    justify-content: space-between;
+}
+.entery-logo{
+    width: 13rem;
+    height: 4rem;
+    margin: 2rem;
+}
+.entry{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://kinkeadtech.com/wp-content/uploads/2015/02/Genesis-Add-on-for-XBMC-and-Kodi-background.jpg");
+}
+.Enterynav .nav-btn{
+    width: 6rem;
+    height: 3rem;
+    margin: 1.5rem;
+    border-radius: 10px;
+    border: 1px blue dashed;
+    background-color: darkgrey;
+    color: blue;
+}

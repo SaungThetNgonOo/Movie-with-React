@@ -1,0 +1,29 @@
+.RandomMovie{
+    text-decoration:dashed;
+    color: white;
+}
+.Random{
+    text-decoration: none;
+    height: auto;
+    margin: 0 0.5rem;
+}
+.Random p{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.Random img{
+    width: 100%;
+    height: 150px;
+}
+.img{
+    border: 4px solid blue;
+}
+.randomRating{
+    display: flex;
+    align-items: center;
+}
+.randomRating span{
+    display: flex;
+    align-items: center;
+    color:darkgoldenrod;
+}

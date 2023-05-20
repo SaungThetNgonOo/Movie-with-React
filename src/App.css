@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+*{
+  scroll-behavior: smooth;
+}
+img{margin: auto;
+max-width: 100%;}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +38,20 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.section-dash{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://kinkeadtech.com/wp-content/uploads/2015/02/Genesis-Add-on-for-XBMC-and-Kodi-background.jpg");
+  color:white;
+}
+.home-text{
+text-align: center;
+padding-top: 20%;
+}
+@media screen and (max-width:800px){
+  .container{
+    width: 90vw;
   }
 }

@@ -1,0 +1,52 @@
+.Movies{
+    background-color:#29335C ;
+}
+.Movies .main-movie{
+    padding: 3rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    gap: 2rem;
+}
+div{display: block;}
+.movies{
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+    color: white;
+}
+.movies .movie-img{
+    position: relative;
+}
+.movie-rate{
+    display: flex;
+    position: absolute;
+    color: darkgoldenrod;
+    background-color:red;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    bottom: 2.4rem;
+    padding: 0;
+}
+h3{
+    padding-top: 1rem;
+    font-size: 1rem;
+    margin: 0;
+}
+h5{font-size: 1rem;
+margin: 0;}
+.searchMovies{
+    background-color:#29335C ;
+}
+@media screen and (max-width:800px){
+.main-movie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+    
+}
+

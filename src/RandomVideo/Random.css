@@ -1,0 +1,10 @@
+.randomVideoPage{
+    width: 95vw;
+    height: auto;
+    margin: auto;
+    overflow-x: hidden;
+}
+.randomVideoContainer{
+    color: white;
+        display: flex;
+}
